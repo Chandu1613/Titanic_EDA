@@ -67,7 +67,7 @@ Used `describe`
 - **Pclass**: 1st class passengers had much better survival odds.
   ![Pclass vs Survival](output/pclass_vs_survived.png)
 - **Fare**: Positively skewed; possible outliers present.
-  ![Boxplot Fare](output/boxplot_Fare.png)
+  ![Boxplot Fare](output/boxplot_fare.png)
 - **Correlations**: Fare has mild positive correlation with survival; age and survival are negatively correlated.
 ---
 
