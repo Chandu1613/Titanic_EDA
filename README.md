@@ -25,3 +25,10 @@ Used `describe`
 |-----------|----------|----------|-----------|----------|----------|----------|
 | Mean      | 0.383838 | 2.308642 | 29.361582 | 0.523008 | 0.381594 | 32.204208|
 | Std Dev   | 0.486592 | 0.836071 | 13.019697 | 1.102743 | 0.806057 | 49.693429|
+---
+
+### 3. Outlier Detection
+- Visualized using boxplots:
+  ![Age Boxplot](../output/boxplot_age.png)
+  ![Fare Boxplot](../output/boxplot_fare.png)
+- Removed Fare outliers using IQR.
