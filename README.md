@@ -11,3 +11,9 @@ Located at `data/Titanic-Dataset.csv`.
 
 ### 1. Load and Explore Data
 Checked for missing values and data types.
+
+### 2. Handle Missing Values
+- Age: Filled with **median**
+- Embarked: Filled with **mode**
+- Dropped "Cabin" (too many nulls)
+---
