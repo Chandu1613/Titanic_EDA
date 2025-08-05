@@ -48,3 +48,10 @@ Used `describe`
   ![Parch Boxplot](output/boxplot_Parch.png)
   ![Pclass Boxplot](output/boxplot_Pclass.png)
   ![SibSp Boxplot](output/boxplot_SibSp.png)
+---
+
+### 8. Feature Relationships
+- Correlation matrix:
+  ![Correlation](output/correlation_matrix.png)
+- Pairplot:
+  ![Pairplot](output/pairplot.png)
