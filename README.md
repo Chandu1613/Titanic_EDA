@@ -35,5 +35,8 @@ Used `describe`
 - Removed Fare outliers using IQR.
 ---
 
-### 4. Encode Categorical Features
+### 5. Encode Categorical Features
 - Used `pd.get_dummies` on `Sex` and `Embarked`.
+---
+### 6. Normalize Numerical Features
+- Standardized `Age` and `Fare`.
