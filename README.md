@@ -55,3 +55,15 @@ Used `describe`
   ![Correlation](output/correlation_matrix.png)
 - Pairplot:
   ![Pairplot](output/pairplot.png)
+---
+
+### 9. Observations
+- Age has some impact on survival.
+- Female passengers had higher survival rate.
+- Fare correlates with survival modestly.
+
+---
+
+## 📁 Outputs
+All plots and EDA outputs are saved in the `output/` folder.
+
