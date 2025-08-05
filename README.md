@@ -40,3 +40,11 @@ Used `describe`
 ---
 ### 6. Normalize Numerical Features
 - Standardized `Age` and `Fare`.
+
+### 7. Histograms & Boxplots
+- Histograms:
+  ![Histograms](output/histograms.png)
+- Individual boxplots:
+  ![Parch Boxplot](output/boxplot_Parch.png)
+  ![Pclass Boxplot](output/boxplot_Pclass.png)
+  ![SibSp Boxplot](output/boxplot_SibSp.png)
