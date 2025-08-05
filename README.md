@@ -16,6 +16,7 @@ Checked for missing values and data types.
 - Age: Filled with **median**
 - Embarked: Filled with **mode**
 - Dropped "Cabin" (too many nulls)
+- Dropped unneccesary Features PassengerId, Ticket and Name
 - No Duplicates in the DataFrame
 ---
 ### 3. Summary Stats
@@ -27,8 +28,12 @@ Used `describe`
 | Std Dev   | 0.486592 | 0.836071 | 13.019697 | 1.102743 | 0.806057 | 49.693429|
 ---
 
-### 3. Outlier Detection
+### 4. Outlier Detection
 - Visualized using boxplots:
-  ![Age Boxplot](../output/boxplot_age.png)
-  ![Fare Boxplot](../output/boxplot_fare.png)
+  ![Age Boxplot](output/boxplot_age.png)
+  ![Fare Boxplot](output/boxplot_fare.png)
 - Removed Fare outliers using IQR.
+---
+
+### 4. Encode Categorical Features
+- Used `pd.get_dummies` on `Sex` and `Embarked`.
