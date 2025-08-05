@@ -57,11 +57,18 @@ Used `describe`
   ![Pairplot](output/pairplot.png)
 ---
 
-### 9. Observations
-- Age has some impact on survival.
-- Female passengers had higher survival rate.
-- Fare correlates with survival modestly.
+### Observations:
 
+- **Missing Data**: 'Cabin' has heavy missing values; 'Age' has moderate missing.
+- **Age**: Younger passengers had higher survival rates.
+  ![Age vs Survival](output/age_vs_survived.png)
+- **Sex**: Females were far more likely to survive.
+  ![Sex vs Survival](output/sex_vs_survived.png)
+- **Pclass**: 1st class passengers had much better survival odds.
+  ![Pclass vs Survival](output/pclass_vs_survived.png)
+- **Fare**: Positively skewed; possible outliers present.
+  ![Boxplot Fare](output/boxplot_Fare.png)
+- **Correlations**: Fare has mild positive correlation with survival; age and survival are negatively correlated.
 ---
 
 ## 📁 Outputs
